@@ -2,13 +2,13 @@
 import time
 time.sleep(1)
 
-def counts_down_prints_happy_new_year(x):
+def countdown(x):
     while x > 0:
         print(f'{x} SECOND(S)!')
         x -= 1
     print('HAPPY NEW YEAR!')
 
-counts_down_prints_happy_new_year(11)
+countdown(11)
 
 
 
